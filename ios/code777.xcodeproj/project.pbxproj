@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		299FDFC325043F400058834D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299FDFC225043F400058834D /* LaunchScreen.storyboard */; };
 		29CA19B32502FDAD004E5D8F /* Dan'sDisneyUI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B12502FDAD004E5D8F /* Dan'sDisneyUI.ttf */; };
 		29CA19B42502FDAD004E5D8F /* GoodFeelingSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29CA19B22502FDAD004E5D8F /* GoodFeelingSans.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -18,7 +19,6 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* code777Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* code777Tests.m */; };
 		4F01EE0E7E02101690F8817F /* libPods-code777.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2407FBD8207ED3EA46090AF /* libPods-code777.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A5149519D8170679C82E48D1 /* libPods-code777-code777Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCFF4531E30F0936F58E886 /* libPods-code777-code777Tests.a */; };
 		D1EE02E2C981F021413B7824 /* libPods-code777-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 265C624116B9C4996190B919 /* libPods-code777-tvOS.a */; };
 		F85E97BF8BE4CB77BF29BBAB /* libPods-code777-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC3C9E79E7BBB74AE40282E /* libPods-code777-tvOSTests.a */; };
@@ -54,6 +54,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = code777/main.m; sourceTree = "<group>"; };
 		1F08B6D309F0304F4E84A16A /* Pods-code777-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code777-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-code777-tvOSTests/Pods-code777-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		265C624116B9C4996190B919 /* libPods-code777-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-code777-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299FDFC225043F400058834D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29CA19B12502FDAD004E5D8F /* Dan'sDisneyUI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dan'sDisneyUI.ttf"; path = "../src/assets/fonts/Dan'sDisneyUI.ttf"; sourceTree = "<group>"; };
 		29CA19B22502FDAD004E5D8F /* GoodFeelingSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GoodFeelingSans.ttf; path = ../src/assets/fonts/GoodFeelingSans.ttf; sourceTree = "<group>"; };
 		2C14356CF4AD75E496E7B2A8 /* Pods-code777.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code777.release.xcconfig"; path = "Target Support Files/Pods-code777/Pods-code777.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		2FEFCF77D2C608588302C6EA /* Pods-code777-code777Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code777-code777Tests.debug.xcconfig"; path = "Target Support Files/Pods-code777-code777Tests/Pods-code777-code777Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EC3C9E79E7BBB74AE40282E /* libPods-code777-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-code777-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656735503E2B1782D44855C5 /* Pods-code777-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code777-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-code777-tvOSTests/Pods-code777-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = code777/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC793C1621066CB27D3834F4 /* Pods-code777-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code777-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-code777-tvOS/Pods-code777-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0F44B366B4F82E5C85B501 /* Pods-code777-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code777-tvOS.release.xcconfig"; path = "Target Support Files/Pods-code777-tvOS/Pods-code777-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		CDCFF4531E30F0936F58E886 /* libPods-code777-code777Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-code777-code777Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,8 +134,8 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				299FDFC225043F400058834D /* LaunchScreen.storyboard */,
 			);
 			name = code777;
 			sourceTree = "<group>";
@@ -299,7 +299,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1140;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -346,8 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CA19B32502FDAD004E5D8F /* Dan'sDisneyUI.ttf in Resources */,
+				299FDFC325043F400058834D /* LaunchScreen.storyboard in Resources */,
 				29CA19B42502FDAD004E5D8F /* GoodFeelingSans.ttf in Resources */,
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,24 +12,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
   },
 
-  header: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    margin: 15,
-    textAlign: 'center',
-  },
-
-  inputDifferentFont: {
-    fontFamily: differentFont,
-  },
-
-  textDefaultFont: {
-    fontSize: 16,
-    marginVertical: 15,
-    textAlign: 'center',
-  },
-
-  textDifferentFont: {
+  title: {
     color: 'white',
     fontFamily: differentFont,
     fontSize: 72,

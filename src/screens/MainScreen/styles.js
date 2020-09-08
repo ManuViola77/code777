@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: PURPLE,
     flex: 1,
-    justifyContent: 'space-around',
   },
 
   title: {

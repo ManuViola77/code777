@@ -5,7 +5,7 @@ import styles from './styles';
 
 const MainScreen = () => (
   <SafeAreaView style={styles.container}>
-    <Text style={styles.title}>MY APP</Text>
+    <Text style={styles.title}>CODE 777</Text>
   </SafeAreaView>
 );
 

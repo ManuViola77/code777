@@ -1,6 +1,18 @@
 import { StyleSheet } from 'react-native';
 
-import { CANARY, PURPLE, PURPLE_DARK } from 'constants/colors';
+import {
+  BLACK,
+  BLUE,
+  BROWN,
+  GREEN,
+  GREY,
+  PINK,
+  PURPLE,
+  PURPLE_DARK,
+  RED,
+  WHITE,
+  YELLOW,
+} from 'constants/colors';
 import { SCREEN_WIDTH } from 'constants/common';
 
 const differentFont = "Dan'sDisneyUI";
@@ -9,39 +21,39 @@ export const getSpecialStyle = (number, index) => {
   let color;
   switch (number) {
     case 1:
-      color = 'green';
+      color = GREEN;
       break;
     case 2:
-      color = 'yellow';
+      color = YELLOW;
       break;
     case 3:
-      color = 'black';
+      color = BLACK;
       break;
     case 4:
-      color = 'brown';
+      color = BROWN;
       break;
     case 5:
-      color = index === 4 ? 'black' : 'red';
+      color = index === 4 ? BLACK : RED;
       break;
     case 6:
-      color = index < 3 ? 'pink' : 'green';
+      color = index < 3 ? PINK : GREEN;
       break;
     case 7:
       switch (index) {
         case 4:
-          color = 'pink';
+          color = PINK;
           break;
         case 5:
         case 6:
-          color = 'yellow';
+          color = YELLOW;
           break;
         default:
-          color = 'blue';
+          color = BLUE;
           break;
       }
       break;
     default:
-      color = 'blue';
+      color = BLUE;
       break;
   }
   return { color };
@@ -54,7 +66,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    color: 'white',
+    color: WHITE,
     fontFamily: differentFont,
     fontSize: 72,
     marginVertical: 15,
@@ -71,7 +83,7 @@ const styles = StyleSheet.create({
   },
   numberContainer: {
     alignItems: 'center',
-    backgroundColor: 'white',
+    backgroundColor: WHITE,
     borderRadius: 15,
     height: 40,
     justifyContent: 'center',
@@ -79,15 +91,15 @@ const styles = StyleSheet.create({
     width: 40,
   },
   have: {
-    borderColor: 'black',
-    borderWidth: 3,
+    borderColor: BLACK,
+    borderWidth: 5,
   },
   dontHave: {
-    backgroundColor: 'grey',
+    backgroundColor: GREY,
   },
   number: {
+    fontFamily: 'AGRESSIVE',
     fontSize: 20,
-    fontWeight: '600',
   },
   rowContainer: {
     flexDirection: 'row',

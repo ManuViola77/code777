@@ -39,11 +39,8 @@ const NumberPyramidScreen = () => {
           styles.numberContainer,
           state === DONT_HAVE && styles.dontHave,
           state === HAVE && styles.have,
-          state !== DONT_HAVE && getSpecialStyle(count, index),
         ]}>
-        <Text style={[styles.number, state !== DONT_HAVE && getSpecialStyle(count, index)]}>
-          {count}
-        </Text>
+        <Text style={[styles.number, getSpecialStyle(count, index)]}>{count}</Text>
       </TouchableOpacity>
     );
   };

@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { PURPLE, PURPLE_DARK } from 'constants/colors';
 import { NOTES_SCREEN, NUMBER_PYRAMID_SCREEN, SCORE_SCREEN } from 'constants/screens';
 import MainScreen from 'screens/MainScreen';
+import NotesScreen from 'screens/NotesScreen';
 import NumberPyramidScreen from 'screens/NumberPyramidScreen';
 import { renderIcon } from './useTabIcons';
 
@@ -24,7 +25,7 @@ const BottomTabBarStack = () => (
       },
     }}>
     <Tab.Screen component={NumberPyramidScreen} name={NUMBER_PYRAMID_SCREEN} />
-    <Tab.Screen component={MainScreen} name={NOTES_SCREEN} />
+    <Tab.Screen component={NotesScreen} name={NOTES_SCREEN} />
     <Tab.Screen component={MainScreen} name={SCORE_SCREEN} />
   </Tab.Navigator>
 );

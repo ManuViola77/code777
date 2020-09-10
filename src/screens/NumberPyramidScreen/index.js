@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
 import { times } from 'lodash';
 
+import Title from 'components/Title';
 import { DONT_HAVE, DONT_KNOW, HAVE } from 'constants/states';
+import commonStyles from 'constants/styles';
 import { initialState } from 'helpers/pyramidState';
 import styles, { getSpecialStyle } from './styles';
 
@@ -58,8 +60,8 @@ const NumberPyramidScreen = () => {
   const renderRows = () => times(8, (index) => renderRow(index));
 
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>CODE 777</Text>
+    <SafeAreaView style={commonStyles.container}>
+      <Title />
       <View style={styles.pyramidContainer}>{renderRows()}</View>
     </SafeAreaView>
   );

@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faHome, faHighlighter, faStar, faThList } from '@fortawesome/free-solid-svg-icons';
 
 import { NOTES_SCREEN, NUMBER_PYRAMID_SCREEN, SCORE_SCREEN } from 'constants/screens';
-import { faHome, faHighlighter, faStar, faThList } from '@fortawesome/free-solid-svg-icons';
 import styles from './styles';
 
 const getTabIconAndStyle = (name, focused) => {

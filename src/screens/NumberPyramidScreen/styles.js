@@ -7,15 +7,12 @@ import {
   GREEN,
   GREY,
   PINK,
-  PURPLE,
   PURPLE_DARK,
   RED,
   WHITE,
   YELLOW,
 } from 'constants/colors';
 import { SCREEN_WIDTH } from 'constants/common';
-
-const differentFont = "Dan'sDisneyUI";
 
 export const getSpecialStyle = (number, index) => {
   let color;
@@ -60,18 +57,6 @@ export const getSpecialStyle = (number, index) => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    backgroundColor: PURPLE,
-    flex: 1,
-  },
-  title: {
-    color: WHITE,
-    fontFamily: differentFont,
-    fontSize: 72,
-    marginVertical: 15,
-    textAlign: 'center',
-  },
   pyramidContainer: {
     alignItems: 'center',
     backgroundColor: PURPLE_DARK,

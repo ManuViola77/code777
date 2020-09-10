@@ -1,11 +1,12 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { SafeAreaView } from 'react-native';
 
-import styles from './styles';
+import Title from 'components/Title';
+import commonStyles from 'constants/styles';
 
 const MainScreen = () => (
-  <SafeAreaView style={styles.container}>
-    <Text style={styles.title}>CODE 777</Text>
+  <SafeAreaView style={commonStyles.container}>
+    <Title />
   </SafeAreaView>
 );
 

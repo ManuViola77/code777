@@ -31,13 +31,6 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     width: SCREEN_WIDTH - 40,
   },
-  /* notesList: {
-    backgroundColor: PURPLE_DARK,
-    borderRadius: 10,
-    //flex: 1,
-    marginBottom: 25,
-    paddingVertical: 20,
-  }, */
 });
 
 export default styles;

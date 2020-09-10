@@ -34,7 +34,6 @@ const NotesScreen = () => {
       </View>
       <View style={styles.notesContainer}>
         <FlatList
-          //contentContainerStyle={styles.notesList}
           data={notes}
           keyExtractor={(item, index) => `${index}`}
           renderItem={({ item, index }) => (

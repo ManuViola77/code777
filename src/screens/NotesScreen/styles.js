@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     color: WHITE,
   },
   notesContainer: {
-    backgroundColor: PURPLE_DARK,
+    backgroundColor: WHITE,
     borderRadius: 10,
     flex: 1,
     marginBottom: 25,

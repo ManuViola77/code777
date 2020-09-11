@@ -9,4 +9,4 @@ export const PURPLE = '#a167c9';
 export const PURPLE_DARK = '#874faf';
 export const RED = '#e41616';
 export const WHITE = '#FFFFFF';
-export const YELLOW = '#ebdf1c';
+export const YELLOW = '#ada400';

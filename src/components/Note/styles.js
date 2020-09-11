@@ -1,7 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { WHITE } from 'constants/colors';
-import { SCREEN_WIDTH } from 'constants/common';
+import { PURPLE_DARK, WHITE } from 'constants/colors';
 
 const styles = StyleSheet.create({
   rowContainer: {
@@ -12,14 +11,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 30,
     paddingVertical: 15,
   },
-  note: {
-    color: WHITE,
-    flex: 1,
-    fontSize: 14,
-    paddingRight: 15,
-  },
   trashIcon: {
-    color: WHITE,
+    color: PURPLE_DARK,
   },
 });
 

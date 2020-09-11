@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { PURPLE, PURPLE_DARK, WHITE } from 'constants/colors';
+import { PURPLE, WHITE } from 'constants/colors';
 import { SCREEN_WIDTH } from 'constants/common';
 
 const styles = StyleSheet.create({

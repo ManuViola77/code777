@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { PURPLE_DARK, WHITE } from 'constants/colors';
+import { PURPLE_DARK } from 'constants/colors';
 
 const styles = StyleSheet.create({
   rowContainer: {

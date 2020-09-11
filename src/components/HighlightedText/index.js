@@ -11,7 +11,6 @@ import {
   GREEN_NAME,
   PINK_NAME,
   RED_NAME,
-  WHITE,
   YELLOW_NAME,
 } from 'constants/colorsNames';
 import styles from './styles';

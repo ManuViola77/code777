@@ -4,6 +4,7 @@ export const BROWN = '#98471f';
 export const CANARY = '#ffff99';
 export const GREEN = '#26a64b';
 export const GREY = '#D3D3D3';
+export const GREY_TRANSPARENT = 'rgba(0, 0, 0, 0.5)';
 export const PINK = '#d138c0';
 export const PURPLE = '#a167c9';
 export const PURPLE_DARK = '#874faf';
